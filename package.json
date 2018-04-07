@@ -1,0 +1,38 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "export NODE_ENV=alpha && supervisor src/app.js",
+    "prod": "export NODE_ENV=production && supervisor src/app.js",
+    "start": "supervisor src/app.js"
+  },
+  "engines": {
+    "node": "8.2.0"
+  },
+  "author": "waynecz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "config": "^1.29.2",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "koa-session": "^5.7.1",
+    "mongoose": "^4.13.9"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nyc": "^11.4.1",
+    "power-assert": "^1.4.4",
+    "supertest": "^3.0.0",
+    "supervisor": "^0.12.0"
+  }
+}
