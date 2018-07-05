@@ -16,4 +16,4 @@ class Boom {
   }
 }
 
-exports.Boom = new Boom()
+module.exports = new Boom()

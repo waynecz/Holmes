@@ -1,19 +1,21 @@
 {
-  "name": "app",
+  "name": "dadda-koa-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Essential restful server template: db / routes / err-handler / test",
   "main": "src/app.js",
   "scripts": {
     "dev": "export NODE_ENV=alpha && supervisor src/app.js",
     "prod": "export NODE_ENV=production && supervisor src/app.js",
-    "start": "supervisor src/app.js"
+    "start": "supervisor src/app.js",
+    "test": "export NODE_ENV=test && mocha -t 10000 test/apis --exit"
   },
   "engines": {
-    "node": "8.2.0"
+    "node": ">8.2.0"
   },
-  "author": "waynecz",
+  "author": "waynecz <451578533@qq.com>",
   "license": "MIT",
   "dependencies": {
+    "assert": "^1.4.1",
     "axios": "^0.17.1",
     "config": "^1.29.2",
     "koa": "^2.4.1",
@@ -21,6 +23,7 @@
     "koa-logger": "^3.1.0",
     "koa-router": "^7.3.0",
     "koa-session": "^5.7.1",
+    "md5": "^2.2.1",
     "mongoose": "^4.13.9"
   },
   "devDependencies": {

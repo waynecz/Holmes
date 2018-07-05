@@ -1,7 +1,6 @@
 const Koa = require('koa')
 const app = new Koa()
-const Routes = require('./routes/v1')
-const home = require('./routes/home')
+const Routes = require('./routes/v0')
 const userSession = require('./middlewares/session')
 const errCatcher = require('./middlewares/errCatcher')
 const bodyParser = require('koa-bodyparser')

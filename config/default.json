@@ -1,1 +1,4 @@
-{}
+{
+  "mongoHost": "localhost:19999",
+  "collectionName": "alpha"
+}

@@ -1,1 +1,4 @@
-{}
+{
+  "mongoHost": "localhost:30017",
+  "collectionName": "production"
+}

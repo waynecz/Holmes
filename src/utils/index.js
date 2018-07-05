@@ -1,3 +1,3 @@
 module.exports = {
-  Boom: require('./boom')
+  Boom: require('./Boom')
 }
