@@ -24,7 +24,7 @@
 
 ```bash
 # clone boilerplate
-git clone https://github.com/waynecz/dadda-koa-boilerplate.git example-name
+git clone https://github.com/waynecz/Holmes.git example-name
 
 cd example-name
 
