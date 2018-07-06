@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-  <img width="280px" src="https://github.com/waynecz/vue-component-boilerplate/raw/master/src/assets/logo.png" alt="logo" />
+  <img width="280px" src="./holmes-logo.png" alt="logo" />
 </p>
 <br>
 
