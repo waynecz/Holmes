@@ -23,19 +23,17 @@
 ## Usage
 
 ```bash
-# clone boilerplate
-git clone https://github.com/waynecz/Holmes.git example-name
+# download boilerplate and unzip it to your project name
+wget -O Holmes.zip https://github.com/waynecz/Holmes/archive/master.zip && unzip Holmes.zip && mv Holmes-master {your project name}
 
-cd example-name
-
-# delete original git files
-rm -rf .git
+# delete .zip file and entry your project
+rm Holmes.zip && cd {your-project-name}
 
 # create new one upon link your repo
 git init && git remote add origin {your repo address}
 
 # install dependices
-yarn
+yarn || npm i
 ```
 
 1.  Replace things in [package.json](./package.json) with your own
