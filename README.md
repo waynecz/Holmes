@@ -26,7 +26,7 @@
 # download boilerplate and unzip it to your project name
 wget -O Holmes.zip https://github.com/waynecz/Holmes/archive/master.zip && unzip Holmes.zip && mv Holmes-master {your project name}
 
-# delete .zip file and entry your project
+# delete .zip file and enter your project
 rm Holmes.zip && cd {your-project-name}
 
 # create new one upon link your repo
